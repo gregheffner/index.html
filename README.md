@@ -14,7 +14,7 @@ The website includes:
 
 ## Technologies Used
 
-The website is built using HTML. It also includes a script from tryhackme.com.
+The website is built using HTML.
 
 ## How to View
 
