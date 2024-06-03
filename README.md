@@ -20,7 +20,8 @@ The website is built using HTML, Kubernetes, and ubuntu.
 
 ## How to View
 
-To view the website, open the `index.jpg` file in any web browser.
+https://greg.heffner.live
+To view the website as a jpg, open the `index.jpg` file in any web browser.
 
 ## Future Updates
 
