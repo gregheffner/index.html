@@ -18,7 +18,7 @@ The website is built using HTML.
 
 ## How to View
 
-To view the website, open the `index.html` file in any web browser.
+To view the website, open the `index.jpg` file in any web browser.
 
 ## Future Updates
 
