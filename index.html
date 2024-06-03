@@ -1,5 +1,5 @@
-<html>
-<head>
+<html> 
+    <head>
     <style>
         .header {
             background-image: url('/images/header.jpg');
@@ -15,11 +15,13 @@
             font-size: 5em;
             font-weight: bold;
             text-align: center;
+            font-display: swap;
         }
         .sub-header {
             text-align: center;
             font-size: 3em;
             margin-top: 20px;
+            font-display: swap;
         }
         .text-container {
             background-color: rgba(255, 255, 255, 0.7);
@@ -33,11 +35,21 @@
         .column {
             width: calc(50% - 10px);
             box-sizing: border-box;
+            background-color: #ffffff; 
+            color: #000000; 
+            padding: 20px;
+            max-width: 100%; 
+            box-sizing: border-box; 
         }
         .clear {
             clear: both;
-        }    
-    </style>
+        }   
+        body {
+    background-color: #282c34;
+    color: #ffffff;
+}
+</style>
+<meta name="viewport" content="width=device-width">
 </head>
 <body>
     <div class="header">
@@ -81,12 +93,12 @@
             </ul>
             <h3>You cant be a nerd without a Weather Station or Ham Radio Network:</h3>
             <ul>
-                <li><a href="https://www.wunderground.com/dashboard/pws/KFLJACKS3696">WeatherUnderground_Dashboard</a></li>
-                <li><a href="http://stats.allstarlink.org/stats/52914">Radio_Group_Map</a></li>
+                <li><a href="https://www.wunderground.com/dashboard/pws/KFLJACKS3696">WeatherStation</a></li>
+                <li><a href="http://stats.allstarlink.org/stats/52914">AllstarNode</a></li>
             </ul>
             <script src="https://tryhackme.com/badge/1424708"></script>
         </div>
     </div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88e069e0be6d5082","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88e2c209be6f53be","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
 </body>
 </html>
