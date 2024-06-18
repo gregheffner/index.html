@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+
+  <style>
+    .gandp {
+    height: 300px; 
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        background-color: f8f8f8;
+        border-bottom: 1px solid ccc;
+    }
+
+    .menu button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+        justify-items: center;
+        align-items: center;
+        margin: 0;
+        overflow-y: auto;
+    }
+
+    div.gallery img {
+        width: 750px;
+        height: auto;
+    }
+
+    .gallery img {
+    width: 500px;  
+    height: 300px;
+    object-fit: cover; 
+    }
+
+    .desc {
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .gallery:last-child {
+    justify-self: center;
+    }
+</style>
+
+<head>
+
+    <title>Pictures</title>
+</head>
+<body>
+
+    <div class="gallery">
+        <a target="_blank" href="image/beach1.jpg">
+            <img src="image/beach1.jpg" alt="Jax Beach Pier" </img>
+        </a>
+        <div class="desc">Jax Beach Pier</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/beach4.jpg">
+            <img src="image/beach4.jpg" alt="The Girls" </img>
+        </a>
+        <div class="desc">My girls </div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/beach2.jpg">
+            <img src="image/beach2.jpg" alt="Jax Beach North" </img>
+        </a>
+        <div class="desc">Jax Beach North</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/beach3.jpg">
+            <img src="image/beach3.jpg" alt="Jax Beach" </img>
+        </a>
+        <div class="desc">Jax Beach 2024</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/bandg.jpg">
+            <img src="image/bandg.jpg" alt="My youngest and I" />
+        </a>
+        <div class="desc">My youngest and I </div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/gandp.jpg">
+            <img src="image/gandp.jpg" alt="My oldest and I" />
+        </a>
+        <div class="desc">My oldest and I</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/fam.JPG">
+            <img src="image/fam.JPG" alt="The Family 2024" />
+        </a>
+        <div class="desc">The Family 2024</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="image/thedogs.jpg">
+            <img src="image/thedogs.jpg" alt="The pups" />
+        </a>
+        <div class="desc">The pups</div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function goForward() {
+            window.history.forward();
+        }
+    </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8957d6ec5d188bb5","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
+</body>
+</html>
