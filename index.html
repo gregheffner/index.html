@@ -1,4 +1,5 @@
-<html> 
+<!doctype html>   
+<html>    
     <head>
     <style>
         .header {
@@ -9,28 +10,33 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: 'trebuchet ms',sans-serif;
         }
         .header-text {
             color: black;
             font-size: 5em;
+            text-shadow: 2px 2px 2px #ffffff;
             font-weight: bold;
             text-align: center;
             font-display: swap;
+            font-family: 'trebuchet ms',sans-serif;
         }
         .sub-header {
             text-align: center;
             font-size: 3em;
             margin-top: 20px;
             font-display: swap;
+            font-family: 'trebuchet ms',sans-serif;
         }
         .text-container {
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: rgb(102, 102, 102);
             padding: 20px;
             width: 100%;
             margin: 0 auto;
             margin-top: 25px;
             display: flex;
             justify-content: space-between;
+            font-family: 'trebuchet ms',sans-serif;
         }
         .column {
             width: calc(50% - 10px);
@@ -41,21 +47,95 @@
             max-width: 100%; 
             box-sizing: border-box; 
         }
+        corner-image {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          z-index: 1;
+          width: 30px; 
+          height: 30px; 
+          object-fit: cover; 
+        }
         .clear {
             clear: both;
         }   
         body {
-    background-color: #282c34;
-    color: #ffffff;
-}
-</style>
-<meta name="viewport" content="width=device-width">
-</head>
-<body>
+          background-color: #282c34;
+        color: #ffffff;
+        }
+        .navbar{
+          display: flex; justify-content: flex-end; width: 100%; background-color: transparent !important; font-family: 'trebuchet ms',sans-serif; padding-right: 15px; padding-left: 15px;
+        }
+        .navdiv{
+          display: flex; align-items: center; justify-content: space-between;
+        }
+        .navbar button{
+          background-color: transparent; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+        }
+        .navbar button a{
+          color: transparent; font-weight: bold; font-size: 15px;
+        }
+        .navbar li{
+          list-style: none; display: inline-block;
+        }
+        .navbar li a{
+          color: white; font-size: 18px; font-weight: bold; margin-right: 25px; font-family: 'trebuchet ms',sans-serif;
+        }
+        .navbar button{
+          background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+        }
+        .navbar button a{
+          color: white; font-weight: bold; font-size: 15px; font-family: 'trebuchet ms',sans-serif;
+        }
+      </style>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3941951641805897" crossorigin="anonymous" type="97c9b0b0453036f8c42e7ec9-text/javascript"> </script>
+    
+        <script async src="https://fundingchoicesmessages.google.com/i/pub-3941951641805897?ers=1" nonce="drPCtL_hPnvLGFPUGtHsFQ" type="97c9b0b0453036f8c42e7ec9-text/javascript"></script> <script nonce="drPCtL_hPnvLGFPUGtHsFQ" type="97c9b0b0453036f8c42e7ec9-text/javascript"> (function() {
+            function signalGooglefcPresent() {
+                if (!window.frames['googlefcPresent']) {
+                    if (document.body) {
+                        const iframe = document.createElement('iframe');
+                        iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;';
+                        iframe.style.display = 'none';
+                        iframe.name = 'googlefcPresent';
+                        document.body.appendChild(iframe);
+                    } else {
+                        setTimeout(signalGooglefcPresent, 0);
+                    }
+                }
+            }
+            signalGooglefcPresent();
+        })();  </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDM113R7W8" type="97c9b0b0453036f8c42e7ec9-text/javascript"></script>
+        <script type="97c9b0b0453036f8c42e7ec9-text/javascript"> window.dataLayer = window.dataLayer || []; function gtag() {
+        dataLayer.push(arguments); } gtag('js', new Date()); gtag('config',
+        'G-SDM113R7W8');  </script>
+    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXLQTMF14Q" type="97c9b0b0453036f8c42e7ec9-text/javascript"></script>
+        <script type="97c9b0b0453036f8c42e7ec9-text/javascript"> window.dataLayer = window.dataLayer || []; function
+        gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config',
+        'G-SXLQTMF14Q'); </script>
+
+    </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+      <ul>
+              <li><a href="https://greg.heffner.live">Home</a></li>
+              <li><a href="/cdn-cgi/l/email-protection#e984888087c799858887dcded1daa98f889a9d84888085c78a8684">Contact</a></li>
+              <li><a href="https://greg.heffner.live/photos.html">Photos</a></li>
+              <li><a href="https://greg.heffner.live/privacy.html">Privacy Policy</a></li>
+              <li><a href="https://www.paypal.com/donate/?business=UK9DCMKFRTWRN&no_recurring=0&item_name=Thanks+for+supporting+the+page&currency_code=USD">Donate</a></li>
+      </ul>
+      </div>
+    </nav>
     <div class="header">
         <div class="header-text">GREG HEFFNER</div>
-    </div>
-    <div class="sub-header">A father, veteran, and nerd</div>
+    </div>       
+    <div class="sub-header">A father, veteran, and nerd</div> 
+    <!-- Im not the only nerd if youre reading this -->
     <div class="text-container">
         <div class="column">
             <h3>Military Service</h3>
@@ -67,38 +147,47 @@
             </p>
             <h3>Tech Enthusiast</h3>
             <p>
-                Beyond my military role, my passion lies in technology. I am an avid learner, keeping up with the latest
-                trends in networking, cybersecurity, and cloud computing. Whether configuring servers or optimizing
-                network performance, people say my expertise shines through.
+                Beyond my military role, my passion continued to lie in technology. I am an avid learner, keeping up with the latest
+                trends in networking, cybersecurity, and cloud computing. Finding the root cause to technical problems is my forte. I think 
+                outside the box and make data driven decisions. 
+            </p>
+            <h3> Interests</h3>
+            <p>
+                Some interests of mine are Python, Pandas, HTML, CSS, Bash Scripting, Prometheus, Graphana, 
+                Git, Docker, Kubernetes, Crowdstrike, Rapid7, Cisco, Palo Alto, Ubiquiti, Raspberri Pi, nginx, AWS, Azure, GCP, Kali, Ubuntu, centOS, SLES, RHEL, WIN OS, Mac OSX, Ansible, 
+                Terraform, CircleCI, Jira, Scrum, Kanban, Cybersecurity, Machine Learning, Ethical Hacking, Penetration Testing, Operating System Security, 
+                Risk Management, Incident Response, Disaster Recovery, Business Continuity, Capture the Flag, King of the Mountain, and advent of Code. 
             </p>
             <h3>Future Goals</h3>
             <p>
-                I dreams of launching a tech mentorship program for young girls, inspiring them to pursue STEM careers.
-                I envision a world where gender barriers in tech are shattered. Never want my daughters to say "Im not
-                good enough.""
+                I dream of launching a tech mentorship program for young girls, inspiring them to pursue STEM careers.
+                I envision a world where gender barriers in tech are shattered. Im also working to be a better father/son/brother/friend.
             </p>
         </div>
         <div class="column">
-            <h3>Check out my online repos:</h3>
-            <ul>
-                <li><a href="https://github.com/GregHeffner">GitHub_Repo</a></li>
-                <li><a href="https://hub.docker.com/repository/docker/technotuba/nginx/tags">DockerHubImages</a></li>
-                <p> Custom images like the one I used to create this site. </p>
-            </ul>
-            <h3>I also do some live streams:</h3>
-            <ul>
-                <li><a href="https://www.youtube.com/channel/UC1vfbsGFZC8-KCWGQuYfEOw">Youtube</a></li>
-                <li><a href="https://www.twitch.tv/technotubaa">Twitch</a></li>
-                <p> This is mostly video games. Discord link in youtube bio</p>
-            </ul>
-            <h3>You cant be a nerd without a Weather Station or Ham Radio Network:</h3>
-            <ul>
-                <li><a href="https://www.wunderground.com/dashboard/pws/KFLJACKS3696">WeatherStation</a></li>
-                <li><a href="http://stats.allstarlink.org/stats/52914">AllstarNode</a></li>
-            </ul>
-            <script src="https://tryhackme.com/badge/1424708"></script>
+        <h3>Check out my online repos:</h3>
+        <ul>
+            <li><a href="https://github.com/GregHeffner">GitHub_Repo</a>: Scripts, playbooks, automations, configs</li>
+            <li><a href="https://hub.docker.com/repository/docker/technotuba/nginx/tags">DockerHubImages</a>: Custom images like the one I used to create this site</li>
+        </ul>
+        <h3>I also do some live streams:</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UC1vfbsGFZC8-KCWGQuYfEOw">Youtube</a></li>
+            <li><a href="https://www.twitch.tv/technotubaa">Twitch</a></li>
+        </ul>
+        <h3>You cant be a nerd without a Weather Station or Ham Radio Network:</h3>
+        <ul>
+            <li><a href="https://spaghettimodels.com">SpaghettiModels</a> For weather</li>
+            <li>Radio Dashboards <a href="https://brandmeister.network">BrandmeisterDashboard</a></li>
+            <li><a href="http://192.223.28.176:42420/CallWatch">LiveLogs</a> Realtime DMR Logs</li>
+        </ul>
+        <div style="position: relative;">
+        <h3>How to Learn:</h3>
+        <ul>
+            <a href="https://tryhackme.com">TryHackMe</a> (yes, I know it sounds phishy but it's legit) is a great place if you want to dabble in some CTF's or learn some code. You can even do FREE courses!<br>
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://tryhackme.com/badge/1424708" type="97c9b0b0453036f8c42e7ec9-text/javascript"></script>
+        </ul>
         </div>
-    </div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon='{"rayId":"88e2c209be6f53be","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
-</body>
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="97c9b0b0453036f8c42e7ec9-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8988c9a32ba87bb2","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
+  </body>
 </html>
