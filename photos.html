@@ -1,119 +1,181 @@
 <!doctype html>
 
 <html>
-
   <style>
-    .gandp {
-    height: 300px; 
+    .sub-header {
+        text-align: center;
+        font-size: 3em;
+        margin-top: 20px;
+        font-display: swap;
+        font-family: 'trebuchet ms',sans-serif;
     }
-    .menu {
+    .text-container {
+        background-color: rgb(102, 102, 102);
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
         display: flex;
-        justify-content: flex-end;
-        padding: 10px;
-        background-color: f8f8f8;
-        border-bottom: 1px solid ccc;
+        justify-content: space-between;
+        font-family: 'trebuchet ms',sans-serif;
     }
-
-    .menu button {
-        padding: 10px 20px;
-        font-size: 16px;
-        margin-left: 10px;
+    .column {
+        width: calc(50% - 10px);
+        box-sizing: border-box;
+        background-color: #ffffff; 
+        color: #000000; 
+        padding: 20px;
+        max-width: 100%; 
+        box-sizing: border-box; 
     }
-
-    body {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        gap: 5px;
-        justify-items: center;
-        align-items: center;
-        margin: 0;
-        overflow-y: auto;
+    corner-image {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1;
+      width: 30px; 
+      height: 30px; 
+      object-fit: cover; 
     }
-
     div.gallery img {
         width: 750px;
         height: auto;
     }
-
     .gallery img {
-    width: 500px;  
-    height: 300px;
-    object-fit: cover; 
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
     }
-
-    .desc {
-        padding: 10px;
+    .clear {
+        clear: both;
+    }   
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        font-size: 20px;
+        margin: 0;
+        overflow-y: auto;
+        font-family: 'trebuchet ms', sans-serif;
+        background-color: #282c34;
+        color: #ffffff;
+        padding-top: 20px;
     }
-    .gallery:last-child {
-    justify-self: center;
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-items: center;
+        width: 100%;
     }
-</style>
+    .navbar{
+      display: flex; justify-content: flex-end; width: 100%; background-color: transparent !important; font-family: 'trebuchet ms',sans-serif; padding-right: 15px; padding-left: 15px;
+    }
+    .navdiv{
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .navbar button{
+      background-color: transparent; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+    }
+    .navbar button a{
+      color: transparent; font-weight: bold; font-size: 15px;
+    }
+    .navbar li{
+      list-style: none; display: inline-block;
+    }
+    .navbar li a{
+      color: white; font-size: 18px; font-weight: bold; margin-right: 25px; font-family: 'trebuchet ms',sans-serif;
+    }
+    .navbar button{
+      background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+    }
+    .navbar button a{
+      color: white; font-weight: bold; font-size: 15px; font-family: 'trebuchet ms',sans-serif;
+    }
+  </style>
 
 <head>
 
-    <title>Pictures</title>
-</head>
+<title>Pictures</title>
+    <nav class="navbar">
+        <div class="navdiv">
+            <ul>
+                <li><a href="https://greg.heffner.live">Home</a></li>
+                <li><a href="/cdn-cgi/l/email-protection#deb3bfb7b0f0aeb2bfb0ebe9e6ed9eb8bfadaab3bfb7b2f0bdb1b3">Contact</a></li>
+                <li><a href="https://greg.heffner.live/photos.html">Photos</a></li>
+                <li><a href="https://greg.heffner.live/privacy.html">Privacy Policy</a></li>
+                <li><a href="https://www.paypal.com/donate/?business=UK9DCMKFRTWRN&no_recurring=0&item_name=Thanks+for+supporting+the+page&currency_code=USD">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+  </head>
 <body>
-
-    <div class="gallery">
+  <div class="main-content">
+  <div class="gallery">
         <a target="_blank" href="image/beach1.jpg">
             <img src="image/beach1.jpg" alt="Jax Beach Pier" </img>
         </a>
         <div class="desc">Jax Beach Pier</div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/beach4.jpg">
             <img src="image/beach4.jpg" alt="The Girls" </img>
         </a>
         <div class="desc">My girls </div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/beach2.jpg">
             <img src="image/beach2.jpg" alt="Jax Beach North" </img>
         </a>
         <div class="desc">Jax Beach North</div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/beach3.jpg">
             <img src="image/beach3.jpg" alt="Jax Beach" </img>
         </a>
         <div class="desc">Jax Beach 2024</div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/bandg.jpg">
             <img src="image/bandg.jpg" alt="My youngest and I" />
         </a>
         <div class="desc">My youngest and I </div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/gandp.jpg">
             <img src="image/gandp.jpg" alt="My oldest and I" />
         </a>
         <div class="desc">My oldest and I</div>
     </div>
 
-    <div class="gallery">
-        <a target="_blank" href="image/fam.JPG">
-            <img src="image/fam.JPG" alt="The Family 2024" />
+  <div class="gallery">
+        <a target="_blank" href="image/fam.jpg">
+            <img src="image/fam.jpg" alt="The Family 2024" />
         </a>
         <div class="desc">The Family 2024</div>
     </div>
 
-    <div class="gallery">
+  <div class="gallery">
         <a target="_blank" href="image/thedogs.jpg">
             <img src="image/thedogs.jpg" alt="The pups" />
         </a>
         <div class="desc">The pups</div>
     </div>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8957d6ec5d188bb5","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous">    
-  </script>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="04e85d77adc88e81043ec3e1-text/javascript">
+        function goBack() {
+            window.history.back();
+        }
+
+        function goForward() {
+            window.history.forward();
+        }
+    </script>
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="04e85d77adc88e81043ec3e1-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8988c09b3c257bb2","r":1,"version":"2024.4.1","token":"58654ca0c624448c9c52f5291ddf5bec"}' crossorigin="anonymous"></script>
 </body>
 </html>
