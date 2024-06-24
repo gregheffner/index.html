@@ -12,7 +12,8 @@ The website includes:
 - A brief introduction, my background, and interests in technology.
 - Links to custom images and scripts.
 - Streaming stuffs
-- A link to WeatherUnderground Dashboard and radio dashboards
+- A link to SpaghettiModels and Brandmeister. Not my site but it is one I go to for each storm
+- Learning LInk
 
 ## Technologies Used
 
